@@ -9,8 +9,8 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
   return (
     <header
       style={{
-        background: "var(--brand-dark)",
-        borderBottom: "3px solid var(--brand-primary)",
+        background: "#000",
+        borderBottom: "3px solid #fff",
       }}
     >
       <div
@@ -32,13 +32,13 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
             style={{
               width: 36,
               height: 36,
-              background: "var(--brand-primary)",
+              background: "#fff",
               borderRadius: "50%",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
               fontWeight: 700,
-              color: "#fff",
+              color: "#000",
               fontSize: "0.85rem",
               letterSpacing: "0.05em",
               flexShrink: 0,
@@ -60,7 +60,7 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
             </div>
             <div
               style={{
-                color: "var(--brand-secondary)",
+                color: "rgba(255,255,255,0.6)",
                 fontSize: "0.72rem",
                 letterSpacing: "0.12em",
                 textTransform: "uppercase",
@@ -87,12 +87,12 @@ export default function Header({ activeTab, onTabChange }: HeaderProps) {
                 fontWeight: 600,
                 transition: "all 0.15s",
                 background:
-                  activeTab === tab ? "var(--brand-primary)" : "transparent",
+                  activeTab === tab ? "#fff" : "transparent",
                 borderColor:
                   activeTab === tab
-                    ? "var(--brand-primary)"
+                    ? "#fff"
                     : "rgba(255,255,255,0.3)",
-                color: activeTab === tab ? "#fff" : "rgba(255,255,255,0.7)",
+                color: activeTab === tab ? "#000" : "rgba(255,255,255,0.7)",
               }}
             >
               {tab === "booking" ? "Customer Booking" : "Dispatch Board"}

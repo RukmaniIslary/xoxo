@@ -85,8 +85,8 @@ export default function TimePicker({
                   style={{
                     padding: "0.5rem 0.4rem",
                     borderRadius: 4,
-                    border: `1.5px solid ${selected ? "var(--brand-primary)" : "var(--brand-border)"}`,
-                    background: selected ? "var(--brand-primary)" : "#fff",
+                    border: `1.5px solid ${selected ? "#000" : "var(--brand-border)"}`,
+                    background: selected ? "#000" : "#fff",
                     color: selected ? "#fff" : "var(--brand-dark)",
                     fontSize: "0.82rem",
                     fontWeight: selected ? 700 : 400,

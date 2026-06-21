@@ -19,7 +19,7 @@ export default function ConfirmationTicket({
       {/* Ticket */}
       <div
         style={{
-          border: "2px solid var(--brand-primary)",
+          border: "2px solid #000",
           borderRadius: 8,
           overflow: "hidden",
           background: "#fff",
@@ -28,7 +28,7 @@ export default function ConfirmationTicket({
         {/* Ticket header */}
         <div
           style={{
-            background: "var(--brand-primary)",
+            background: "#000",
             color: "#fff",
             padding: "0.85rem 1.2rem",
             display: "flex",
@@ -121,7 +121,7 @@ export default function ConfirmationTicket({
               </div>
               <div
                 style={{
-                  color: "var(--brand-primary)",
+                  color: "#000",
                   fontWeight: 700,
                   marginTop: "0.1rem",
                   fontSize: "0.95rem",
@@ -181,9 +181,9 @@ export default function ConfirmationTicket({
           width: "100%",
           padding: "0.75rem",
           borderRadius: 6,
-          border: "2px solid var(--brand-primary)",
+          border: "2px solid #000",
           background: "#fff",
-          color: "var(--brand-primary)",
+          color: "#000",
           fontWeight: 700,
           fontSize: "0.9rem",
           cursor: "pointer",

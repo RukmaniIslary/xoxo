@@ -35,7 +35,7 @@ function StatBox({
         style={{
           fontSize: "1.8rem",
           fontWeight: 700,
-          color: "var(--brand-primary)",
+          color: "#000",
           lineHeight: 1,
         }}
       >
@@ -300,7 +300,7 @@ export default function DispatchBoard() {
                     style={{
                       fontSize: "0.9rem",
                       fontWeight: 700,
-                      color: "var(--brand-primary)",
+                      color: "#000",
                     }}
                   >
                     {formatCurrency(booking.depositPaid)}

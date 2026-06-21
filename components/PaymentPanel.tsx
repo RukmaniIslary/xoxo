@@ -164,7 +164,7 @@ export default function PaymentPanel({
                 style={{
                   fontWeight: 700,
                   fontSize: "1.15rem",
-                  color: "var(--brand-primary)",
+                  color: "#000",
                 }}
               >
                 {formatCurrency(service.deposit)}
@@ -207,7 +207,7 @@ export default function PaymentPanel({
           padding: "0.85rem",
           borderRadius: 6,
           border: "none",
-          background: canPay ? "var(--brand-primary)" : "#ccc",
+          background: canPay ? "#000" : "#ccc",
           color: "#fff",
           fontWeight: 700,
           fontSize: "1rem",
@@ -223,7 +223,7 @@ export default function PaymentPanel({
 
       <p style={{ fontSize: "0.75rem", color: "#888", textAlign: "center", margin: 0 }}>
         Secured by{" "}
-        <span style={{ fontWeight: 700, color: "#0e4f8a" }}>Paddle</span>. No-shows
+        <span style={{ fontWeight: 700, color: "#000" }}>Paddle</span>. No-shows
         forfeit the deposit.
       </p>
     </div>

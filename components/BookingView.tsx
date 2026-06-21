@@ -40,7 +40,7 @@ function StepLabel({
           width: 28,
           height: 28,
           borderRadius: "50%",
-          background: "var(--brand-primary)",
+          background: "#000",
           color: "#fff",
           display: "flex",
           alignItems: "center",
@@ -172,8 +172,7 @@ export default function BookingView() {
               style={{
                 marginTop: "0.75rem",
                 fontSize: "0.8rem",
-                color: "#e05a2b",
-                margin: "0.75rem 0 0",
+                color: "#555",                margin: "0.75rem 0 0",
               }}
             >
               Please fill in your name, phone, email, and select a date and time to continue.

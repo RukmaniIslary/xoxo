@@ -23,9 +23,9 @@ export default function ServicePicker({ selectedId, onSelect }: ServicePickerPro
               justifyContent: "space-between",
               gap: "1rem",
               padding: "1rem 1.1rem",
-              border: `2px solid ${selected ? "var(--brand-primary)" : "var(--brand-border)"}`,
+              border: `2px solid ${selected ? "#000" : "var(--brand-border)"}`,
               borderRadius: 6,
-              background: selected ? "#fff8f3" : "#fff",
+              background: selected ? "#f2f2f2" : "#fff",
               textAlign: "left",
               transition: "all 0.15s",
               cursor: "pointer",
@@ -36,7 +36,7 @@ export default function ServicePicker({ selectedId, onSelect }: ServicePickerPro
               <div
                 style={{
                   fontWeight: 700,
-                  color: selected ? "var(--brand-primary)" : "var(--brand-dark)",
+                  color: selected ? "#000" : "var(--brand-dark)",
                   fontSize: "0.95rem",
                   marginBottom: "0.2rem",
                 }}
@@ -70,7 +70,7 @@ export default function ServicePicker({ selectedId, onSelect }: ServicePickerPro
               <div
                 style={{
                   fontSize: "0.75rem",
-                  color: "var(--brand-primary)",
+                  color: "#444",
                   marginTop: "0.15rem",
                 }}
               >
